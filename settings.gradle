@@ -1,0 +1,3 @@
+include ':vector3f'
+include ':app'
+rootProject.name = "Vector3f"
