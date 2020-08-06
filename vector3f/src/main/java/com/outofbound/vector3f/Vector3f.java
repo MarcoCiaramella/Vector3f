@@ -26,9 +26,7 @@ public class Vector3f implements Serializable {
         this(v[0],v[1],v[2]);
     }
 
-    private Vector3f(){
-        // used for backup and res
-    }
+    private Vector3f(){}
 
     public Vector3f(Vector3f v){
         this(v.x,v.y,v.z);
