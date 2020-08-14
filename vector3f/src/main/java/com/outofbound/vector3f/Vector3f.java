@@ -62,6 +62,10 @@ public class Vector3f implements Serializable {
         z = crossZ;
     }
 
+    public float dot(Vector3f v){
+        return x * v.x + y * v.y + z * v.z;
+    }
+
     public void normalize(){
         float length = length();
         x /= length;
